@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="index.php" method="post">
+        <div>
+            <label for="name">First Name</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div>
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age">
+        </div>
+        <div>
+            <label for="experience">No of Experience</label>
+            <input type="number" id="experience" name="experience">
+        </div>
+        <div>
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div>
+            <label for="file">File</label>
+            <input type="file" id="file" name="file">
+        </div>
+        <div>
+            <label for="degree">Degree</label>
+            <select name="degree" id="degree">
+                <option value="diplom">Diplom</option>
+                <option value="bachelor">Bachelor</option>
+                <option value="master">Master</option>
+                <option value="phd">Phd</option>
+            </select>
+        </div>
+        <div>
+            <label for="languages">Languages :</label>
+            <input type="checkbox" id="dart" name="languages[]" value="dart">
+            <label for="dart">Dart</label>
+            <input type="checkbox" id="java" name="languages[]" value="java">
+            <label for="java">Java</label>
+            <input type="checkbox" id="swift" name="languages[]" value="swift">
+            <label for="swift">Swift</label>
+            <input type="checkbox" id="python" name="languages[]" value="python">
+            <label for="python">Python</label>
+        </div>
+        <div>
+            <label> City </label>
+            <input list="cities" name="city">
+            <datalist id="cities">
+                <option value="North Lebanon">
+                <option value="Bikaa">
+                <option value="Beirut">
+                <option value="Kesrwan">
+                <option value="Jounie">
+            </datalist>
+        </div>
+        <div>
+            <label for="skills">Skills</label>
+            <select name="skills" id="skills">
+                <optgroup label="leader skills">
+                    <option value="time managment">time managment</option>
+                    <option value="team work">team work</option>
+                    <option value="problem solving">problem solving</option>
+                </optgroup>
+                <optgroup label="communication skills">
+                    <option value="listening">listening</option>
+                    <option value="speaking">speaking</option>
+                    <option value="writing">writing</option>
+                </optgroup>
+            </select>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
+
+
+<!-- name , age ,no of experience , phone ,email , file ,
+ degree (Diplom ,Bachelor, Master , Phd)>> select one of them ,
+  languages (dart , java , swift , python)>> select many of them
+ city(North Lebanon ,Bikaa ,Beirut ,Kesrwan ,Jounie )>> select one of them,
+ skills (leader skills : time managment , team work , problem solving
+ , communication : listening , speaking , writing)>> select many of them -->

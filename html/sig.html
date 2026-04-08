@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign up</title>
+</head>
+<body>
+
+<h1>Sign up</h1>
+
+<form method="post" action="signup.php">
+<fieldset>
+    <legend>SignUp DATA</legend>
+
+    <div>
+        <label>Username</label>
+        <input type="email" placeholder="example@gmail.com">
+    </div>
+
+    <div>
+        <label>password</label>
+        <input type="password" placeholder="password with 8 digit" max="8">
+    </div>
+
+    <div>
+        <label>Gender</label>
+        <div>
+            <input type="radio" name="gender" checked> Male
+            <input type="radio" name="gender"> Female
+        </div>
+    </div>
+
+    <div>
+        <label>Hobbies</label>
+        <div>
+            <input type="checkbox" checked> Sport
+            <input type="checkbox"> Reading
+        </div>
+    </div>
+
+    <div>
+        <label>Fruits</label>
+        <div>
+            <select size="3">
+                <option>Orange</option>
+                <option>Apple</option>
+                <option>Strawberry</option>
+            </select>
+        </div>
+    </div>
+
+    <div>
+        <label>What is your Country?</label>
+        <select>
+            <optgroup label="Middle East">
+                <option selected>Palestine</option>
+                <option>Jordan</option>
+                <option>Egypt</option>
+                <option>Saudi Arabia</option>
+                <option>Qatar</option>
+                <option>UAE</option>
+            </optgroup>
+
+            <optgroup label="Europe">
+                <option>Germany</option>
+                <option>France</option>
+                <option>Italy</option>
+                <option>Spain</option>
+                <option>Turkey</option>
+            </optgroup>
+
+            <optgroup label="Asia">
+                <option>China</option>
+                <option>Japan</option>
+                <option>India</option>
+                <option>Malaysia</option>
+            </optgroup>
+
+            <optgroup label="America">
+                <option>USA</option>
+                <option>Canada</option>
+                <option>Brazil</option>
+                <option>Mexico</option>
+            </optgroup>
+        </select>
+    </div>
+
+    <div>
+        <input type="text">
+    </div>
+
+    <div>
+        <label>feedback</label>
+        <textarea rows="4" cols="40">This is A place to put your</textarea>
+    </div>
+
+    <div>
+        <a href="#">click to download the photo</a>
+    </div>
+
+    <div>
+        <label>Upload your CV</label>
+        <input type="file">
+    </div>
+
+    <div>
+        <input type="date">
+    </div>
+
+    <div>
+        <input type="range">
+    </div>
+
+    <div>
+        <input type="submit" value="submit button">
+    </div>
+
+</fieldset>
+</form>
+
+</body>
+</html>

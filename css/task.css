@@ -1,0 +1,30 @@
+body{
+    background-image: url('../images/see.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div{
+    width: 50%;
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 20px;
+    text-align: center;
+    padding: 15px;
+}
+
+#red{
+    background-color: red;
+}
+
+#blue{
+    background-color: blue;
+}
+
+#green{
+    background-color: green;
+}
+
+#purple{
+    background-color: purple;
+}

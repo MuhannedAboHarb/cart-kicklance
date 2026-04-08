@@ -1,0 +1,41 @@
+/* p{ */
+    /* background-color: yellow; */
+    /* width: 200px; */
+    /* word-wrap: break-word; */
+    /* white-space:nowrap ; */
+/* } */
+
+
+        body{
+
+            font-family: "Playwrite IE", cursive;
+            font-size: larger;
+            font-weight: x-large;
+        }
+
+        .card {
+            width: 500px;
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .title {
+            font-size: 26px;
+            color: #007BFF;
+            margin-bottom: 15px;
+        }
+
+        .description {
+            font-size: 16px;
+            color: #333;
+            line-height: 1.8;
+        }
+
+        .skills {
+            margin-top: 15px;
+            color: #555;
+            font-weight: bold;
+        }

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    height: 1900px;
+    background: rgb(255, 0, 0);
+    text-align: center;
+    padding-top: 29%;
+    font: bold 60px Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#s{
+
+    border: 6px solid blue;
+
+    background: url("../images/background.jpg") no-repeat center;
+    
+    /* بتحفظ كل حجم الصورة وبتخليها تظهر كلها  */
+    background-size: cover;
+
+    /* بتمنع تكرار الصورة */
+    background-repeat: no-repeat;  
+
+
+    /* بتحكم في السكرول للصورة وبخليها ثابتة مهما نزلت وطلعت بالصورة*/
+    background-attachment: fixed;
+
+
+    /*  */
+    background-position:center;
+
+    /* بتظهر الصورة بعد ال box-model => padding , content , border ,  */
+    background-origin:padding-box ;
+}
+

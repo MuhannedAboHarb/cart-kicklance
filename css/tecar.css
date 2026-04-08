@@ -1,0 +1,30 @@
+.card{
+    background-color: #5252f2d4;
+    width: 50%;
+    height: 260px;
+    margin: auto;
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 10%;
+}
+
+h1{
+    color: white;
+    text-transform: capitalize;
+}
+
+p{
+    color: white;
+    font-size: large;
+}
+
+button{
+    color: white;
+    border-radius: 30px;
+    padding: 12px;
+    background-color: blue;
+}
+
+.img{
+    margin-left: 500px;
+}

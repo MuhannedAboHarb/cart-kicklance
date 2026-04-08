@@ -1,0 +1,38 @@
+/* h2 {
+    color: white;
+    background-color: blue;
+    width: min-content;
+    margin-left: 15px;
+}
+
+p{
+    width: max-content;
+    margin: 15px;
+    border: dotted 8px green;
+} */
+
+.A{
+    background-color: blueviolet;
+    width: 300px; ;
+}
+
+.B{
+    background-color: brown;
+    min-width: 500px;
+}
+
+.C{
+    background-color: burlywood;
+    max-height: 300px;
+    border-radius: 300px;
+}
+
+.gird{
+    width: 200px;
+    height: 200px;
+    border: solid 8px green;
+    text-align: center;
+    /* border-radius: 50px 50px  50px  50px ; */
+    /* border-top-left-radius: 40px; */
+    border-radius: 50%;
+}

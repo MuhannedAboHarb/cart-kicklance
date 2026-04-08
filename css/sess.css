@@ -1,0 +1,63 @@
+h1{
+    border: 60px;
+    padding: 16px;
+    color: blue;
+    margin: 50px;
+    text-align: center;
+            /*    x   Y   Shadow    color*/
+    text-shadow: 20px 20px 5px purple ,
+                -20px -20px 5px red ,
+                    10px 0px 5px green    ;
+}
+
+
+#hass{
+    text-align: center;
+}
+
+strong{
+
+    text-align: center;
+}
+div {
+    direction: rtl;
+}
+
+h2{
+    text-transform: capitalize;
+    word-spacing: 20px;
+    letter-spacing: 8px;
+    /* text-decoration-line: overline  ; */
+    text-decoration: wavy overline red;
+
+}
+
+p{
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    /* text-decoration-line: overline underline ;
+    text-decoration-color: red;
+    text-decoration-style: wavy; */
+    text-decoration: wavy overline black;
+
+}
+span{
+    letter-spacing: 10px ;
+    text-transform: uppercase;
+}
+
+
+a{
+    /*or text-decoration-line: none ;    same things */
+    text-decoration: none;  
+    color: red;
+}
+
+
+#project{
+    background-color: cadetblue;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    box-shadow: -10px 10px 5px 5px inset ;
+}

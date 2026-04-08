@@ -1,0 +1,55 @@
+ body{
+    width: 60%;
+    margin: auto;
+    background-image: url('../images/background.jpg');
+}
+
+
+.all{
+  font-family: "Playwrite IE", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+}
+
+
+.head2{
+font-family: "Rakkas", serif;
+  font-weight: 400;
+  font-style: normal;
+padding: 3px;
+}
+
+
+.head{
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 3px;
+
+}
+
+.phar1{
+    
+    background-color: aliceblue;
+    font-size: 26px;
+    border-radius: 12px;
+}
+
+span{
+    background-color: rgb(255, 209, 255);
+}
+
+.head2{
+    direction: rtl;
+}
+
+h2{
+    font-weight: bolder;
+}
+
+.phar2{
+    background-color: aliceblue;
+    font-size: 20px;
+    border-radius: 12px;
+     font-variant: small-caps;
+}

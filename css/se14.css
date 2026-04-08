@@ -1,0 +1,31 @@
+div{
+    background-color: #f0f0f0;
+    width: 50%;
+    height: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 15px;
+    position: relative;
+}
+
+h1{
+    color: #333;
+    margin-top: 30%;
+    text-align: center;
+}
+
+#one{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    color: red;
+    font-size: xx-large;
+}
+
+#two{
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    color: blue;
+    font-size: xx-large;
+}
